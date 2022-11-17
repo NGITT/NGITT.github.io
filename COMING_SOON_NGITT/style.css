@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0ff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3F4EB9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    color: #3F4EB9;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover {
+    color: #053654;
+}
+
+section {
+    padding: 100px 100px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(50deg, #3F4EB9,#C4CDD6, #ffff 70%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+.About {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span,
+.About h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #101b6e;
+    font-size: 3em;
+    font-weight: 600 ;
+    letter-spacing: 10px;
+}
+.main h3,
+.About h3 {
+    color: #3F4EB9;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main h3 span,
+.About h3 span{
+    color: #101b6e;
+    font-weight: 600 ;
+    letter-spacing: 15px;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+}
+.social-icons a:hover{
+    transform: scale(1.1);
+    color:#f0f0ff;
+}
+
+.footer{
+    background-color: #3F4EB9;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-title{
+    color: #000;
+    font-size: 1.3em;
+    
+}
+.footer .footer-title span{
+    color: #fff;
+    font-weight: 600;
+}
+.footer .social-icons{
+    font-size: 1.1em;
+    padding: 0 12px 0 0;
+}
+  
+
+
+
+
