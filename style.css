@@ -16,7 +16,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(50deg, #3F4EB9,#C4CDD6, #ffff 70%);
+    background: linear-gradient(50deg, #544929, rgb(0, 0, 0) 70%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -38,14 +38,14 @@ section {
 .About h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #101b6e;
+    color: #6b6501;
     font-size: 3em;
     font-weight: 600 ;
     letter-spacing: 10px;
 }
 .main h3,
 .About h3 {
-    color: #3F4EB9;
+    color: #f6f6f9;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -54,7 +54,7 @@ section {
 }
 .main h3 span,
 .About h3 span{
-    color: #101b6e;
+    color: #fed904;
     font-weight: 600 ;
     letter-spacing: 15px;
 }
@@ -93,9 +93,6 @@ section {
     .social-icons a {
         color: #3F4EB9;
     }
-    .main h2{
-        color: #3F4EB9;
-    }
 }
 
 @media (max-width:300px){
@@ -114,9 +111,6 @@ section {
         justify-content: space-between;
     }
     .social-icons a {
-        color: #3F4EB9;
-    }
-    .main h2{
         color: #3F4EB9;
     }
 }
