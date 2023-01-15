@@ -16,7 +16,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(50deg, #544929, rgb(0, 0, 0) 70%);
+    background: linear-gradient(50deg, #0c47f6, #838897, rgb(254, 249, 249) 70%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ section {
 .About h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #6b6501;
+    color: #0c47f6;
     font-size: 3em;
     font-weight: 600 ;
     letter-spacing: 10px;
@@ -54,7 +54,7 @@ section {
 }
 .main h3 span,
 .About h3 span{
-    color: #fed904;
+    color: #0c47f6;
     font-weight: 600 ;
     letter-spacing: 15px;
 }
