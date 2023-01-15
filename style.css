@@ -38,7 +38,7 @@ section {
 .About h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #0c47f6;
+    color: #0c33a8;
     font-size: 3em;
     font-weight: 600 ;
     letter-spacing: 10px;
@@ -54,7 +54,7 @@ section {
 }
 .main h3 span,
 .About h3 span{
-    color: #0c47f6;
+    color: #0d2d8d;
     font-weight: 600 ;
     letter-spacing: 15px;
 }
