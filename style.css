@@ -68,7 +68,16 @@ section {
     transform: scale(1.1);
     color:#f0f0ff;
 }
- 
+
+.made{
+    color: #fff;
+    font-size: .5em;
+}
+.made a{
+    text-decoration: none; 
+    color: #3af4ae;
+}
+
 @media (max-width:1023px){
    
     section{
